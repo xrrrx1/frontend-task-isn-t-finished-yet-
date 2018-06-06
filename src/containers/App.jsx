@@ -10,6 +10,7 @@ import { getHotels } from '../actions/hotelsAC';
 import hotelsSelector from '../selectors/hotelsSelector';
 import dataSelector from '../selectors/dataSelector';
 import loadingSelector from '../selectors/loadingSelector';
+import Loader from '../components/Loader/Loader';
 
 const StyledDiv = styled.div`
   width: 100%;
@@ -56,7 +57,7 @@ class App extends Component {
     const { hotels, isLoading, hasData } = this.props;
 
     return isLoading ? (
-      <p>LOADING</p>
+      <Loader color="black" />
     ) : (
       <StyledDiv>
         <HeaderContainerDiv>
