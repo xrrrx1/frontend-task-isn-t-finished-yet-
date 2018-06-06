@@ -1,0 +1,4 @@
+export const HOTELS_API = '//5b17a073f5c9b700145512c7.mockapi.io/hotels';
+export const HOTELS_REQUEST = 'HOTELS_REQUEST';
+export const HOTELS_REQUEST_FAILED = 'HOTELS_REQUEST_FAILED';
+export const HOTELS_RECEIVE = 'HOTELS_RECEIVE';

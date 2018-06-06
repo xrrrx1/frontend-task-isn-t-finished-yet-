@@ -9,7 +9,7 @@ const OrdersContainer = styled.div`
   border: 1px grey solid;
 `;
 
-const Orders = () => (
+const Order = () => (
   <OrderssContainer>
     <OrdersContainer>
       <p>ФИО пол и дата рождения заказчика</p>
@@ -24,6 +24,6 @@ const Orders = () => (
   </OrderssContainer>
 );
 
-Orders.propTypes = {};
+Order.propTypes = {};
 
-export default Orders;
+export default Order;
